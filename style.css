@@ -1,0 +1,70 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family: 'Montserrat', sans-serif;
+
+}
+header{
+background-image: url('font.jpg');
+background-size:inherit ;
+background-position: center;
+height:100px
+
+
+}
+.navbar{
+display: flex;
+flex-wrap:flex;
+justify-content: space-between;
+margin-left:1420px;
+background-color: rgba(255,255,255,0.5);
+
+height:100px;
+
+}
+.body1{
+    background-image: url('shopping1.jpg');
+    background-size:inherit ;
+    background-position: center;
+    height:1000px;
+    display:flex;
+    justify-content: center;
+padding-top: 50px;
+}
+.welcome{
+    font-size: xx-large;
+
+}
+.welcome>a{
+    margin-left: 250px;
+}
+
+nav li{
+display: inline-block;
+padding-right: 10px;
+padding-left: 10px;
+background-color: rgb(245, 201, 136); 
+border: 1px solid blue; 
+}
+ion-icon {
+    --ionicon-stroke-width: 25px;
+  }
+ .shopp{
+     margin-left: 36%;
+ }
+
+ .element {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.heart-color{
+color: crimson;
+}
+.dec{
+    padding: 2px;
+}
+.inc{
+    padding: 2px;
+}

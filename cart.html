@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Shopping cart</title>
+    <meta name="description" content="An interactive getting started guide for Brackets.">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+
+</head>
+
+<body >
+    <header>
+        <div class="navbar">
+            <nav>
+                <h2>SHOP</h2>
+                <ul>
+                    <li><a href="index.html"> Home Page </a></li>
+                    <li class="cart">
+                        <a href="cart.html">
+                            <ion-icon name="caret-forward-outline"></ion-icon> cart <span id="totnav">0</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+
+    </header>
+    <div class="card">
+        <h1 class="shopp">Shopping bag total : <span id="total">0</span> €</h1>
+        <hr><br><br>
+    </div>
+    <section>
+        <div class="element">
+            <div class="icon">
+                <span class="remove">X &nbsp;&nbsp;</span>
+                <ion-icon class="heart" name="heart">heart </ion-icon>
+            </div>
+            <img width="100px"
+                src="image1.jpg"
+                alt="basket noir">
+            <span>Basket bleu <br> 30€</span>
+            <div>
+                <button  class="inc" onclick="increm1()">+</button>
+                <span id="comp1">0</span>
+                <button id="dec1" class='dec' onclick="decrem1()" onload="changeBtn()">-</button>
+            </div>
+            <p><span id="element1">0</span> €</p>
+        </div>
+<br><br>
+
+        <div class="element">
+            <div class="icon">
+                <span class="remove">X&nbsp;&nbsp;</span>
+                <ion-icon class="heart" name="heart">heart </ion-icon>
+            </div>
+            <img width="100px"
+                src="image2.jpg"
+                alt="basket noir">
+            <span>Basket bleu <br> 40€</span>
+            <div>
+                <button  class="inc" onclick="increm2()">+</button>
+                <span id="comp2">0</span>
+                <button id="dec2" class='dec' onclick="decrem2()">-</button>
+            </div>
+            <p><span id="element2">0</span> €</p>
+        </div>
+        <br><br>
+
+        <div class="element">
+            <div class="icon">
+                <span class="remove">X&nbsp;&nbsp;</span>
+                <ion-icon  class="heart" name="heart">heart </ion-icon>
+            </div>
+            <img width="100px"
+                src="image3.jpg"
+                alt="basket noir">
+            <span>Basket blanc <br> 50€</span>
+            <div>
+                <button  class="inc" onclick="increm3()">+</button>
+                <span id="comp3">0</span>
+                <button id="dec3" class='dec' onclick="decrem3()">-</button>
+            </div>
+            <p><span id="element3">0</span> €</p>
+        </div>
+
+    </section>
+    <script src="https://unpkg.com/ionicons@5.2.3/dist/ionicons.js"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>
